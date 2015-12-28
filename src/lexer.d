@@ -35,6 +35,7 @@ private:
 	    }
 
 	    if (current_char == '.') {
+	    	consume();
 	        while (is_digit(current_char)) {
 	            consume();
 	        }
