@@ -4,3 +4,4 @@ OUT_NAME = elba
 
 all:
 	${D_COMPILER} ${SRC_FILES} -of${OUT_NAME}
+	rm -rf *.o
